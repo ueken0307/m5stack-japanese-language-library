@@ -3,7 +3,7 @@ M5Stack用日本語ライブラリ
 
 ## 概要
 [Arduino用漢字フォントライブラリ](https://github.com/Tamakichi/Arduino-KanjiFont-Library-SD)をM5Stack上で簡単に使えるようにするライブラリ。なるべく公式ライブラリの仕様に合わせるようにした。ほぼ自分用。
-![IMG_3796](https://user-images.githubusercontent.com/16350703/56672837-11e74a00-66f2-11e9-90bd-93fd046dc73d.JPG)
+![sample](https://user-images.githubusercontent.com/16350703/56673348-0ea08e00-66f3-11e9-98ba-f0f9c4a92895.JPG)
 
 ## インストール
 
