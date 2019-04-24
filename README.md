@@ -1,0 +1,40 @@
+M5Stack用日本語ライブラリ
+====
+
+## 概要
+[Arduino用漢字フォントライブラリ](https://github.com/Tamakichi/Arduino-KanjiFont-Library-SD)をM5Stack上で簡単に使えるようにするライブラリ。なるべく公式ライブラリの仕様に合わせるようにした。ほぼ自分用。
+
+## インストール
+
+1. Tamakichiさんの [Arduino用漢字フォントライブラリ](https://github.com/Tamakichi/Arduino-KanjiFont-Library-SD) をダウンロードし、  
+tarontさんの [M5Stackで日本語表示](https://qiita.com/taront/items/7900c88b9e9782c33b08) を参考にしてM5Stackで使えるように変更して、  
+ライブラリのREADMEを参考にしてインストールする。
+
+2. 本ライブラリをダウンロードしてArduinoのライブラリフォルダに配置する。  
+例: 
+
+```
+libraries
+  └──M5Japanese/
+          ├── README.md
+          ├── keywords.txt
+          ├── library.properties
+          └── src
+              ├── M5Japanese.cpp
+              └── M5Japanese.h
+```
+
+## 使い方
+`M5Japanese.h`をインクルードする。  
+`M5.begin()`後に`M5J.begin()`で初期化を行うと使えるようになる。  
+フォントサイズは `8 10 12 14 16 20 24` のみ。(今後自由に指定できるようにしたい)  
+関数一覧はこちらから [M5Japanese.h](https://github.com/ueken0307/m5stack-japanese-language-library/blob/master/src/M5Japanese.h)  
+
+
+## 今後
+- M5Stackの仕様に依存しすぎてる部分が多いのでもう少し柔軟にする  
+- ダブルバッファリングなどにも対応できるようにする  
+- フォントサイズをsdfontsに用意されているサイズ以外も可能にする  
+- drawRightStringを適切な挙動に変更する  
+- drawCentreStringを適切な挙動に変更する  
+- 文字列内の改行で `\n` しか対応してないから必要があればそれ以外も対応する。  
