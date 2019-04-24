@@ -1,1 +1,32 @@
-KEYWORD1 
+M5J	KEYWORD3
+
+begin	KEYWORD2
+setTextSize	KEYWORD2
+setTextColor	KEYWORD2
+setBackgroundColor	KEYWORD2
+setDrawBackground	KEYWORD2
+setColor	KEYWORD2
+setStyle	KEYWORD2
+setDefaultTextSize	KEYWORD2
+setDefaultTextColor	KEYWORD2
+setDefaultBackgroundColor	KEYWORD2
+setDefaultDrawBackground	KEYWORD2
+setDefaultColor	KEYWORD2
+setDefaultStyle	KEYWORD2
+resetTextSize	KEYWORD2
+resetTextColor	KEYWORD2
+resetBackgroundColor	KEYWORD2
+resetDrawBackground	KEYWORD2
+resetColor	KEYWORD2
+resetStyle	KEYWORD2
+getCursorX	KEYWORD2
+getCursorY	KEYWORD2
+setCursor	KEYWORD2
+textWidth	KEYWORD2
+textHeight	KEYWORD2
+print	KEYWORD2
+println	KEYWORD2
+printf	KEYWORD2
+drawString	KEYWORD2
+drawCentreString	KEYWORD2
+drawRightString	KEYWORD2
